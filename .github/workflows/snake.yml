@@ -11,6 +11,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Debug GitHub contributions
+        run: curl -s https://github.com/users/KyuharuTE/contributions | grep rect | head
+
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk@master
