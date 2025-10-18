@@ -7,3 +7,7 @@
 所以不要期望我写出很美丽的代码, 在我看来实现了功能才是最重要的.
 
 那么感谢你的阅读 QWQ
+
+---
+
+![Snake](https://raw.githubusercontent.com/KyuharuTE/KyuharuTE/refs/heads/snake_output/github-snake.svg)
